@@ -228,11 +228,10 @@ align-items: center;
 .feature-list {
     display: flex;
     flex-wrap: wrap;
-
+ 
 }
 
 .section-list {
-
     flex-basis: calc((100% - 90px) / 4);
     margin-right: 30px;
 }
