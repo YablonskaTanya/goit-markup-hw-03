@@ -27,7 +27,6 @@
 }
 
 
-
 body{
     color: var(--primary-text-color);
     background-color: var(--white-bg-color);
@@ -40,7 +39,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
     margin: 0;
     padding: 0;
 }
-
 
 .container{
     width: 1200px;
@@ -76,8 +74,8 @@ h1,h2,h3,h4,h5,h6,p,ul{
 }
 
 
-
 /* header */
+
 .header{
     border-bottom: 1px solid #ECECEC; ;
    
@@ -100,6 +98,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .nav .link{
     color: var(--primary-text-color);
 }
+
 .list .link:hover,
 .list .link:focus {
     color: var(--accent-text-color);
@@ -108,6 +107,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .nav .list.current {
     color: var(--accent-text-color);
 }
+
 .communication .link {
     color: var(--secondary-text-color);
 
@@ -125,8 +125,8 @@ h1,h2,h3,h4,h5,h6,p,ul{
 }
 
 .site-nav{
-display: flex;
-margin-left: 93px;
+    display: flex;
+    margin-left: 93px;
 }
 
 
@@ -138,10 +138,12 @@ margin-left: 93px;
 .site-nav .navigation + .navigation{
     margin-left: 50px;
 }
+
 .communication{
     display: flex;
     margin-left: auto;
 }
+
 .communication .navigation+.navigation {
     margin-left: 50px;
 }
@@ -184,6 +186,7 @@ align-items: center;
     border-color: transparent;
 
     padding: 10px 32px;
+    margin-top: 30px;
    
 }
 .button:hover,
@@ -195,38 +198,39 @@ align-items: center;
 
 
 
-.title{
+.title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+
     text-transform: uppercase;
- 
+    align-items: center; 
+
 }
 
-.text{
+.text {
     color: var(--secondary-text-color);
     font-size: 14px;
     line-height: 1.7;
+  
     margin-top: 10px;
- 
   
 }
 
-
 .feature-list {
     display: flex;
+    flex-wrap: wrap;
 
 }
 
 .section-list {
-    display: flex;
-    flex-wrap: wrap;
+    width: 270px;
     width: calc((100% - 90px) / 4);
-    margin-right: 30px;  
- 
+    margin-right: 30px;
 }
+
 .section-list:nth-child(4n) {
-margin-right: 0;
+    margin-right: 0;
 }
 
 
@@ -243,17 +247,17 @@ margin-right: 0;
 
 .work-list{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
    
 
 }
 .work-card{
-    display: flex;
-    flex-wrap: wrap;
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
 
 }
+
 .work-card:nth-child(3n) {
     margin-right: 0;
 }
@@ -286,18 +290,18 @@ margin-right: 0;
 
 .team-list{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
 }
 .team-picture{
-    display: flex;
-    flex-wrap: wrap;
+  
     flex-direction: column;
     background-color: var(--white-bg-color);
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-        padding-bottom: 30px;
+    padding-bottom: 30px;
    
 }
 
@@ -335,13 +339,10 @@ margin-right: 0;
 }
 
 .city{
-        margin-top: 20px;
-    }
-
-/* .footer .logo {
-    display: block;
+    margin-top: 20px;
 }
-    */
+
+
 .footer .link-footer {
     color: var(--white-text-rgba);
 
@@ -351,9 +352,11 @@ margin-right: 0;
 .link-footer:focus{
     color: var(--accent-text-color);
 }
+
 .link-footer{
     margin-top: 9px;
 }
+
 .footer .container{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -370,14 +373,14 @@ margin-right: 0;
     border-color: transparent;
     padding: 6px 25px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-     border-radius: 4px;
+    border-radius: 4px;
 }
 
 
   .portfolio .button:hover,
   .portfolio .button:focus{
-      background-color: var(--button-accent);
-      color: var(--white-text-color);
+    background-color: var(--button-accent);
+    color: var(--white-text-color);
 }
 
 .portfolio-title{
@@ -396,11 +399,13 @@ margin-right: 0;
     margin-top: 4px;
     padding-bottom: 20px;
 }
+
 .push-portfolio{
     display: flex;
     justify-content: center;
         
 }
+
 .push-portfolio .push + .push{
     margin-left: 8px;
 }
@@ -424,11 +429,9 @@ margin-right: 0;
     margin-left: 30px;
     border-bottom:1px solid #EEEEEE;;
  
-
 }
 
 
-        border: 1px solid #EEEEEE;
 
 
 
